@@ -1,0 +1,4 @@
+name: defconst exordium
+markdown: kramdown
+permalink: /:year/:month/:day/:title
+paginate: 20

@@ -1,26 +1,16 @@
-<!DOCTYPE html>
-<html>
-  <head>
-	<title>(defblog exordium)</title>
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-  </head>
-  <body>
-	<nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-	    <li><a href="https://github.com/philippe-grenet">About</a></li>
-      </ul>
-	</nav>
-	<div class="container">
-      <div class="blurb">
-        <h1>(defblog exordium)</h1>
-		<p>A blog is coming...</p>
-      </div><!-- /.blurb -->
-	</div><!-- /.container -->
-	<footer>
-      <ul>
-        <li><a href="https://github.com/philippe-grenet/exordium">Exordium</a></li>
-	  </ul>
-	</footer>
-  </body>
-</html>
+---
+layout: default
+title: (defblog exordium)
+---
+<div class="blurb">
+  <h1>(defblog exordium)</h1>
+  <p>A blog about Emacs and Lisp programming.</p>
+
+  <ul class="posts">
+	{% for post in site.posts %}
+	<li>
+      <span>{{ post.date | date_to_string }}</span> &#187;
+      <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	{% endfor %}
+  </ul>
+</div><!-- /.blurb -->
