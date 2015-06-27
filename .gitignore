@@ -1,2 +1,6 @@
 # Jekyll generated files
 _site/
+.sass-cache
+
+# Others
+.DS_Store

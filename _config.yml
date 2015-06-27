@@ -1,4 +1,29 @@
-name: defconst exordium
-markdown: kramdown
-permalink: /:year/:month/:day/:title
-paginate: 20
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               (defblog exordium)
+tagline:             Emacs and Lisp musings
+url:                 https://philippe-grenet.github.io
+paginate:            5
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Philippe Grenet
+  url:               https://github.com/philippe-grenet
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/philippe-grenet/philippe-grenet.github.io.git
