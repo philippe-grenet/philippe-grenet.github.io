@@ -5,8 +5,8 @@ date: 2015-06-28
 ---
 
 I've used Eclipse for many years; what always bothered me about it is that it
-forces you to use the mouse for things like switching between
-buffers[^fn-eclipse_shortcut]. Which is a very common operation: add an
+forces you to use the mouse all the time, even for things like switching
+between buffers[^fn-eclipse_shortcut]. Which is a very common operation: add an
 argument to the definition of a function, switch to the file where it is
 called, and change the function call. In fact my Emacs configuration sets up a
 very easy [key](https://github.com/philippe-grenet/exordium#keymap) for
