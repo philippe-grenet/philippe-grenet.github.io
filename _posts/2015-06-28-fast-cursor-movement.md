@@ -4,19 +4,19 @@ title: "Fast cursor movement"
 date: 2015-06-28
 ---
 
+I've used Eclipse for many years; what always bothered me about it is that it
+forces you to use the mouse for things like switching between
+buffers[^fn-eclipse_shortcut]. Which is a very common operation: add an
+argument to the definition of a function, switch to the file where it is
+called, and change the function call. In fact my Emacs configuration sets up a
+very easy [key](https://github.com/philippe-grenet/exordium#keymap) for
+switching between the 2 most recently used buffers.
+
 One of the many great things about Emacs (and Vim as well) is that you can do
 everything you need without ever using the mouse, and in fact without even
 requiring a GUI. This is a killer feature compared to most IDEs because menus
 and mice are slow. If your hands don't have to leave the home row, you can
 change text almost as fast as you think.
-
-I've used Eclipse for many years; one of the things that always bothered me
-about it is that it forces you to use the mouse for things like switching
-between buffers[^fn-eclipse_shortcut]. Which is a very common operation: add an
-argument to the definition of a function, switch to the file where it is
-called, and change the function call. My Emacs configuration sets up a very
-easy [key](https://github.com/philippe-grenet/exordium#keymap) for switching
-between the 2 most recently used buffers.
 
 You can get more productive if you know how to move the cursor quickly within a
 buffer. There are several clever [extensions](http://emacsrocks.com/e10.html)
