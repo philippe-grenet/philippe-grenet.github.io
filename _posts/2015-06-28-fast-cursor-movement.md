@@ -42,7 +42,7 @@ Keybinding           | Description
 `C-left`             | Move backward one word (`left-word`).
 
 Any major mode may have its own definition of what a word is (it is defined in
-the the mode's *syntax table*).
+the mode's *syntax table*).
 
 Unfortunately these keys are not symetrical: moving right then left does not
 necessarily bring you back where you started. For programming, I found it
