@@ -52,8 +52,8 @@ words:
 {% highlight lisp %}
 (define-key global-map [(meta right)]
   #'(lambda (arg)
-    (interactive "p")
-    (forward-same-syntax arg)))
+      (interactive "p")
+      (forward-same-syntax arg)))
 
 (define-key global-map [(meta left)]
   #'(lambda (arg)
@@ -73,6 +73,18 @@ Keybinding           | Description
 ---------------------|---------------------------------------------------------
 `C-up`               | Move up one paragraph (`backward-paragraph`).
 `C-down`             | Move down one paragraph (`forward-paragraph`).
+
+### Move by *defuns*
+
+You can move to the begining or end of a class or function almost the same way
+you move to the beginning or end of the line, except that the prefix is `M-C-`:
+
+Keybinding           | Description
+---------------------|---------------------------------------------------------
+`M-C-a`              | Go to the beginning of a class or function.
+`M-C-e`              | Go to the end of a class or function.
+
+Repeat to go to the next or previous class/function.
 
 ### Move by s-expression
 
