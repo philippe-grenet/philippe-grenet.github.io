@@ -27,7 +27,7 @@ arrow keys because they are easy to remember[^fn-arrow_keys].
 
 These four keys are a must:
 
-Keybinding           | Description
+Key binding          | Description
 ---------------------|---------------------------------------------------------
 `C-a`                | Go to the beginning of the line.
 `C-e`                | Go to the end of the line.
@@ -36,7 +36,7 @@ Keybinding           | Description
 
 ### Move by words
 
-Keybinding           | Description
+Key binding          | Description
 ---------------------|---------------------------------------------------------
 `C-right`            | Move forward one word (`right-word`).
 `C-left`             | Move backward one word (`left-word`).
@@ -44,7 +44,7 @@ Keybinding           | Description
 Any major mode may have its own definition of what a word is (it is defined in
 the mode's *syntax table*).
 
-Unfortunately these keys are not symetrical: moving right then left does not
+Unfortunately these keys are not symmetrical: moving right then left does not
 necessarily bring you back where you started. For programming, I found it
 useful to define these extra keys for moving by semantic units rather than
 words:
@@ -70,17 +70,17 @@ command. For example `C-u 3 C-right` moves forward 3 words.
 
 I use these all the time:
 
-Keybinding           | Description
+Key binding          | Description
 ---------------------|---------------------------------------------------------
 `C-up`               | Move up one paragraph (`backward-paragraph`).
 `C-down`             | Move down one paragraph (`forward-paragraph`).
 
 ### Move by *defuns*
 
-You can move to the begining or end of a class or function almost the same way
+You can move to the beginning or end of a class or function almost the same way
 you move to the beginning or end of the line, except that the prefix is `M-C-`:
 
-Keybinding           | Description
+Key binding          | Description
 ---------------------|---------------------------------------------------------
 `M-C-a`              | Go to the beginning of a class or function.
 `M-C-e`              | Go to the end of a class or function.
@@ -94,7 +94,7 @@ sexp) is an atom or a list. For other programming languages, Emacs also
 considers strings and blocs between curly braces or square brackets. Moving by
 sexp is similar to moving by word, only the prefix is `M-C-`:
 
-Keybinding           | Description
+Key binding          | Description
 ---------------------|---------------------------------------------------------
 `M-C-left`           | Move forward one sexp (`forward-sexp`).
 `M-C-right`          | Move backward one sexp (`backward-sexp`).
@@ -107,6 +107,6 @@ You can use `M-x view-lossage` to assess your productivity with Emacs: this
 function displays the last 300 keys you have pressed. If it shows the same key
 repeated many times, you are probably doing it wrong.
 
-[^fn-eclipse_shortcut]: Eclipse has a shortcut key that displays a menu of the open files, but it is slow and combersome.
+[^fn-eclipse_shortcut]: Eclipse has a shortcut key that displays a menu of the open files, but it is slow and cumbersome.
 
 [^fn-arrow_keys]: Touch-type purists prefer to use other keys like `C-f` and `C-b`.
