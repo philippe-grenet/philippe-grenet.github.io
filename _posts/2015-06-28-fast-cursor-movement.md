@@ -4,7 +4,7 @@ title: "Fast cursor movement"
 date: 2015-06-28
 ---
 
-I've used Eclipse for many years; what always bothered me about it is that it
+I've used Eclipse for many years. What always bothered me about it is that it
 forces you to use the mouse all the time, even for things like switching
 between buffers[^fn-eclipse_shortcut]. Which is a very common operation: add an
 argument to the definition of a function, switch to the file where it is
@@ -61,13 +61,14 @@ words:
       (forward-same-syntax (- arg))))
 {% endhighlight %}
 
-
 You can pass a numeric argument to these commands to move by more than a single
-word. The *numeric argument* prefix lets you pass a number to a command, and
-the prefix is `C-u` followed by the number followed by the command. For example
-`C-u 3 C-right` moves forward 3 words.
+word. The *Universal numeric argument* prefix lets you pass a number to a
+command, and the prefix is `C-u` followed by the number followed by the
+command. For example `C-u 3 C-right` moves forward 3 words.
 
 ### Move by paragraphs
+
+I use these all the time:
 
 Keybinding           | Description
 ---------------------|---------------------------------------------------------
@@ -99,6 +100,12 @@ Keybinding           | Description
 `M-C-right`          | Move backward one sexp (`backward-sexp`).
 
 Give it a try, it is more useful than you think.
+
+### One more thing
+
+You can use `M-x view-lossage` to assess your productivity with Emacs: this
+function displays the last 300 keys you have pressed. If it shows the same key
+repeated many times, you are probably doing it wrong.
 
 [^fn-eclipse_shortcut]: Eclipse has a shortcut key that displays a menu of the open files, but it is slow and combersome.
 
