@@ -52,7 +52,7 @@ the document does not have headlines yet. Use `M-LEFT` and `M-RIGHT` to promote
 or demote a headline, e.g. change its level. You can also move a headline and
 all the text under it up and down using `M-UP` and `M-DOWN`.
 
-Finally the `TAB` key collapse or expand headlines. When a headline is
+Finally the `TAB` key collapses or expands headlines. When a headline is
 collapsed, its content is replaced with an ellipsis like so:
 
 ![Org-mode2](/assets/org-mode2.png)
