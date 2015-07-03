@@ -75,13 +75,13 @@ Notice that if you move an item up and down with `M-UP` / `M-DOWN`, the numbers
 are automatically updated.
 
 To create an item with a checkbox, use `S-M-RET` (shift meta return). Toggle
-checkbox using `C-c C-c`.
+a checkbox using `C-c C-c`.
 
 ![Org-mode5](/assets/org-mode5.png)
 
 ### TODOs
 
-An alternative to checkboxes are TODO items:
+An alternative to checkboxes is TODO items in headlines:
 
 ![Org-mode6](/assets/org-mode6.png)
 
@@ -106,7 +106,8 @@ at the beginning of the file (save and reopen to make it work):
 {% endhighlight %}
 
 The vertical bar separates the TODO keywords (states that need action) from the
-DONE states (which need no further action).
+DONE states (which need no further action). They are displayed with different
+colors.
 
 ### Markup
 
