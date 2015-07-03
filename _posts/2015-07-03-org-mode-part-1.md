@@ -140,5 +140,5 @@ Finally the *pi&egrave;ce de r&eacute;sistance*: type this text:
 |--
 {% endhighlight %}
 
-Then hit `TAB` and see what happen. Voila! The table will automatically
+Then hit `TAB` and see what happens. Voila! The table will automatically
 resize itself as you tab and shift-tab to move between cells.
