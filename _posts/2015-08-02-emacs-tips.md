@@ -166,9 +166,15 @@ saw earlier. You can also apply the macro to a whole region by selecting the
 region and running `M-x apply-macro-to-region-lines`, which is neat.
 
 If you want to see macros at their best (and incidentally Emacs humiliating Vim
-at its own game), check out this
-[quick video](http://emacsrocks.com/e02.html). The entire series of Emacs Rocks
-is worth watching.
+at its own game), check out this quick video:
+
+<iframe
+  width="590"
+  height="337"
+  src="http://www.youtube.com/embed/dE2haYu0co8"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
 
 -----
 That's it for today. Lots more to come. Stay tuned!
