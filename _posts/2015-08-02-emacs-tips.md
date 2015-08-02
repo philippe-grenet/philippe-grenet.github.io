@@ -63,7 +63,7 @@ window, to dismiss it.
 
 A bookmark is similar to a buffer position but with a twist: you give it a name
 and it is persisted between Emacs sessions. Note that bookmarks are not
-actually associated to registers, but they use the same `C-x r` prefix.
+actually associated with registers, but they use the same `C-x r` prefix.
 
 The command is `C-x r m` (mark) which prompts for a name. By default it
 proposes the current buffer name but you can choose whatever you want. You can
