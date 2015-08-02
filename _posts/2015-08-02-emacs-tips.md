@@ -176,6 +176,8 @@ at its own game), check out this quick video:
   allowfullscreen>
 </iframe>
 
+The entire series of Emacs Rocks is worth watching.
+
 -----
 That's it for today. Lots more to come. Stay tuned!
 
