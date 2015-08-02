@@ -165,7 +165,7 @@ You could also run the macro N times using Control-a number then `F4`, as we
 saw earlier. You can also apply the macro to a whole region by selecting the
 region and running `M-x apply-macro-to-region-lines`, which is neat.
 
-If you want to see macros at their best (and incidentally Emacs humiliating Vim
+If you want to see macros at their best (and incidentally Emacs beat Vim
 at its own game), check out this quick video:
 
 <iframe
