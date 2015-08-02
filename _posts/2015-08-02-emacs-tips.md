@@ -31,9 +31,9 @@ N instead of calling it N times with no argument.
 ### Registers
 
 Registers are used for saving temporary data in the current session. They can
-store positions or bookmarks, text, numbers etc. Registers have a name: `a` to
-`z`, `A` to `Z` (names are case-sensitive) and `1` to `9`, which gives you a
-total of 62 registers. That's more than enough.
+store positions or bookmarks, text, numbers etc. Registers have a name which is
+a letter or a number: `a` to `z`, `A` to `Z` (so case-sensitive) and `1`
+to `9`, which gives you a total of 62 registers. That's more than enough.
 
 `C-x r` is the prefix for all register operations. Generally you type this
 prefix, then a key to specify what operation you want (e.g. save or read), then
