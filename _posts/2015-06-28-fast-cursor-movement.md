@@ -98,6 +98,10 @@ Key binding          | Description
 ---------------------|---------------------------------------------------------
 `M-C-left`           | Move forward one sexp (`forward-sexp`).
 `M-C-right`          | Move backward one sexp (`backward-sexp`).
+`M-C-d`              | Move down a sexp.
+`M-C-u`              | Move up a sexp.
+`M-C-n`              | Move to the next sexp in the same nested level.
+`M-C-p`              | Move to the previous sexp at the same nested level.
 
 Give it a try, it is more useful than you think.
 
