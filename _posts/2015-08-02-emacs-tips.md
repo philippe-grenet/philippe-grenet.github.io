@@ -62,7 +62,8 @@ window, to dismiss it.
 #### Bookmarks
 
 A bookmark is similar to a buffer position but with a twist: you give it a name
-and it is persisted between Emacs sessions.
+and it is persisted between Emacs sessions. Note that bookmarks are not
+actually associated to registers, but they use the same `C-x r` prefix.
 
 The command is `C-x r m` (mark) which prompts for a name. By default it
 proposes the current buffer name but you can choose whatever you want. You can
@@ -89,10 +90,10 @@ of a register at the current point, type `C-x r i a` (insert the content of
 
 #### Windows
 
-You can also save a window configuration in a register. For example, split the
-screen horizontally with `C-x 2`, then split the current window vertically with
-`C-x 3`. You now have 3 windows displayed, which you can resize as you see
-fit.
+This is less useful than the above, but you can also save a window
+configuration in a register. For example, split the screen horizontally with
+`C-x 2`, then split the current window vertically with `C-x 3`. You now have 3
+windows displayed, which you can resize as you see fit.
 
 Let's save this layout in register `a` with `C-r w a`. Now dismiss all other
 windows than the current one using `C-x 1`. If you want to restore the layout,
@@ -135,7 +136,7 @@ the lazy dog
 {% endhighlight %}
 
 Now suppose I want to make each line start with a capital letter and end with a
-period. You could edit the text manually because it is only 3 lines, but just
+period. I could edit the text manually because it is only 3 lines, but just
 imagine that it is much longer for argument's sake, in order to make the use of
 a macro more compelling.
 
@@ -147,7 +148,7 @@ the macro do the following:
 - `F3` to start recording.
 - `M-c` to capitalize the first word (`The`).
 - `C-e` to go to the end of the line.
-- `.` to insert a period. At this time the first line is good.
+- `.` to insert a period. Now the first line is good.
 - `C-a` to go to the beginning of the line (where we started), and the down
   arrow to go to the next line.
 
@@ -161,11 +162,11 @@ The lazy dog.
 {% endhighlight %}
 
 You could also run the macro N times using Control-a number then `F4`, as we
-saw earlier. You an apply the macro to a whole region by selecting the region
-and running `M-x apply-macro-to-region-lines`, which is neat.
+saw earlier. You can also apply the macro to a whole region by selecting the
+region and running `M-x apply-macro-to-region-lines`, which is neat.
 
 If you want to see macros at their best (and incidentally Emacs humiliating Vim
-at its own game), checkout this
+at its own game), check out this
 [quick video](http://emacsrocks.com/e02.html). The entire series of Emacs Rocks
 is worth watching.
 
