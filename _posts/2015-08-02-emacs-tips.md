@@ -24,10 +24,6 @@ it goes down N lines (by default one line). For example `C-u 1 0 DOWN`
 (Control-u then 1 then 0 then the down arrow key) goes down 10 lines. You can
 do the same by calling the function explicitly with `C-u 1 0 M-x forward-line`.
 
-Note that using the universal argument does not work for all commands, but when
-it works it is generally faster: you call the command one time with an argument
-N instead of calling it N times with no argument.
-
 ### Registers
 
 Registers are used for saving temporary data in the current session. They can
