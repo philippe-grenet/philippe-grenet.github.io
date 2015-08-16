@@ -65,7 +65,7 @@ and got back the returned value, and inserted it into the buffer.
 By default the result is the returned value i.e. the last expression that was
 executed, but you can also use the output of the program as the result with a
 directive like: `#+begin_src python :result output`. For example, evaluate the
-shell statement below:
+shell statement below, again using `C-c C-c`:
 
 {% highlight sh %}
 #+begin_src sh :results output
@@ -78,8 +78,9 @@ shell statement below:
 ### Calling code blocks
 
 Babel also allows you to refer to code blocks from elsewhere in your document,
-by labeling each block with a name. Let's say we have some Ruby code to revert
-a string (yes, I know we could use the native `reverse!`):
+by labeling each block with a name, using directive `#+name`. Let's say we have
+some Ruby code to revert a string (yes, I know we could use the native
+`reverse!`):
 
 {% highlight ruby %}
 #+name: reverse_str
@@ -131,7 +132,8 @@ number of unique words in each file:
 #+end_src
 {% endhighlight %}
 
-The result has multiple lines, so it is stored into an Org table:
+The result has multiple lines, one per file. Therefore it is stored into an Org
+table:
 
 ![Org-mode23](/assets/org-mode23.png)
 
@@ -153,14 +155,15 @@ script, but it is easier to do this in ELisp. Add this block in the buffer:
 #+end_src
 {% endhighlight %}
 
-The `#+begin_src` directive uses the `:var` keyword to bind the variable
+The `#+begin_src` directive uses the `:var` keyword to bind the Lisp variable
 `samples` to the output of the `words` code block (which is the table
 above). In Lisp that `samples` variable will be set with a list of
 lists. Basically each row in the table is a sublist, and since the table has
 only one column the sublists only contain a single number, like this:
 
 {% highlight lisp %}
-'((55) (274) (560) (296) (650) (394) (253))
+;; Value of 'sample':
+'((55) (274) (560) (296) (650) (394) (253) (264))
 {% endhighlight %}
 
 If you evaluate the block with `C-c C-c`, you get the final result:
