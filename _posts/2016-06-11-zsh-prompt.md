@@ -49,7 +49,7 @@ The colors are from the
 also happens to be the default theme in
 [Exordium](https://github.com/philippe-grenet/exordium).
 
-Here is the code:
+Here is the code (in `~/.zshrc`):
 
 {% highlight python %}
 # Zsh options
