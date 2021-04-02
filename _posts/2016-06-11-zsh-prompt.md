@@ -4,7 +4,7 @@ title: "My fancy Zsh prompt"
 date: 2016-06-11
 ---
 
-I switched from `bash` to `zsh` a few years ago and I am never looking back. It
+I switched from `bash` to `zsh` a few years ago and I am never looking back! It
 has awesome tab completion: for example `cd doc/sh/pl` becomes `cd
 Documents/shared/planning`. It also expands git commands and branches,
 environment variables and other things. It has extended file globbing which
