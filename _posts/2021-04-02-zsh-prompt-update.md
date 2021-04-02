@@ -10,15 +10,15 @@ I updated my Zsh prompt to be more efficient and more useful. Features:
 
 - Display current path abbreviated to the 3 last subdirectories:
 
-![zsh prompt](/assets/zsh_new-2.png)
+![zsh prompt](/assets/zsh-new-2.png)
 
 - Automatically detect git repos. Display the name of the repo and the current branch:
 
-![zsh prompt](/assets/zsh_new-3.png)
+![zsh prompt](/assets/zsh-new-3.png)
 
 - Display indicators if the git repo contains untracked/unstaged/staged files:
 
-![zsh prompt](/assets/zsh_new-4.png)
+![zsh prompt](/assets/zsh-new-4.png)
 
 Here is the code:
 
